@@ -30,7 +30,6 @@ function Library:CreateWindow(Version, PrimaryColor, SecondaryColor)
     local NameVersion = Instance.new("TextLabel")
 
     Inaudible.Name = "SomebodyWasHereLOL"
-    syn.protect_gui(Inaudible)
     Inaudible.Parent = game:GetService("CoreGui")
     Inaudible.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
